@@ -22,6 +22,7 @@
 		44E0234117F6753F00E3F96F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E0232017F6753E00E3F96F /* UIKit.framework */; };
 		44E0234917F6753F00E3F96F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44E0234717F6753F00E3F96F /* InfoPlist.strings */; };
 		44E0234B17F6753F00E3F96F /* CompositAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E0234A17F6753F00E3F96F /* CompositAppTests.m */; };
+		44E0235617F683D300E3F96F /* JBImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E0235517F683D300E3F96F /* JBImageManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		44E0234617F6753F00E3F96F /* CompositAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CompositAppTests-Info.plist"; sourceTree = "<group>"; };
 		44E0234817F6753F00E3F96F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		44E0234A17F6753F00E3F96F /* CompositAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CompositAppTests.m; sourceTree = "<group>"; };
+		44E0235417F683D300E3F96F /* JBImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBImageManager.h; sourceTree = "<group>"; };
+		44E0235517F683D300E3F96F /* JBImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBImageManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +127,8 @@
 				44E0233517F6753E00E3F96F /* JBSecondViewController.m */,
 				44E0233717F6753E00E3F96F /* Images.xcassets */,
 				44E0232317F6753E00E3F96F /* Supporting Files */,
+				44E0235417F683D300E3F96F /* JBImageManager.h */,
+				44E0235517F683D300E3F96F /* JBImageManager.m */,
 			);
 			path = CompositApp;
 			sourceTree = "<group>";
@@ -257,6 +262,7 @@
 			files = (
 				44E0232D17F6753E00E3F96F /* JBAppDelegate.m in Sources */,
 				44E0232917F6753E00E3F96F /* main.m in Sources */,
+				44E0235617F683D300E3F96F /* JBImageManager.m in Sources */,
 				44E0233617F6753E00E3F96F /* JBSecondViewController.m in Sources */,
 				44E0233317F6753E00E3F96F /* JBFirstViewController.m in Sources */,
 			);
@@ -385,6 +391,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Masashi Jobara (LTG889V2N4)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CompositApp/CompositApp-Prefix.pch";
 				INFOPLIST_FILE = "CompositApp/CompositApp-Info.plist";
@@ -398,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Masashi Jobara (LTG889V2N4)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CompositApp/CompositApp-Prefix.pch";
 				INFOPLIST_FILE = "CompositApp/CompositApp-Info.plist";
